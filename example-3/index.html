@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+<head>
+    <title>AngularJS Modularizing</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+</head>
+<body ng-app="mainApp">
+    <div ng-controller="mainController">
+        <label-directive color="red" name="Sum odds"></label-directive> = 
+        <input-directive val="{{result_1}}"></input-directive>
+        <br>
+        <label-directive color="blue" name="Multiply evens"></label-directive> = 
+        <input-directive val="{{result_2}}"></input-directive>
+    </div>
+    <script src="bundle.js"></script>
+</body>
+</html>
