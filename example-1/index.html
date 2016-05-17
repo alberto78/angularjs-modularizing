@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+    <title>AngularJS Modularizing</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+</head>
+<body ng-app="mainApp">
+    <div ng-controller="mainController">
+        Sum = {{result_1}}
+        <br>
+        Multiply = {{result_2}}
+    </div>
+    <script src="calc/operations/sum.js"></script>
+    <script src="calc/operations/multiply.js"></script>
+    <script src="calc/index.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
